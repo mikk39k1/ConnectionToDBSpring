@@ -29,6 +29,6 @@ public class PersonService {
     }
 
     public void updatePerson(int id, Person person){
-        personRepo.addPerson(person);
+        personRepo.updatePerson(id,person);
     }
 }

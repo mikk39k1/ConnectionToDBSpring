@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Edit Person</h1>
+
+  <form action="/editOne" method="post">
+    <input type="text" name="id" th:value="${person.id}">
+    <input type="text" name="firstName" th:value="${person.firstName}">
+    <input type="text" name="lastName" th:value="${person.lastName}">
+    <input type="submit" value="Save Changes" style="background-color: #4CAF50">
+  </form>
+</body>
+</html>

@@ -37,3 +37,15 @@ tr:nth-child(even){
     background-color: green;
 }
 
+#btn-viewOne{
+    background-color: #4CAF50;
+}
+
+#btn-deleteOne{
+    background-color: red;
+}
+
+#btn-editOne{
+    background-color: deepskyblue;
+}
+
